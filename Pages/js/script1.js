@@ -38,7 +38,7 @@ function checkAns1(){
         feedback1.style["background-color"] = "#CAEEC2";
     }else{
         console.log('incorrect');
-        const node1 = document.createTextNode("That's not quite right. The only common reason for an application deadline to move is when an organisation thinks they have enough hihg-quality applications.");
+        const node1 = document.createTextNode("That's not quite right. The only common reason for an application deadline to move is when an organisation thinks they have enough high-quality applications.");
         para1.appendChild(node1);
         feedback1.appendChild(para1);
         feedback1.style["background-color"] = "#FFCCCB"
