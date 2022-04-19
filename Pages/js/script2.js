@@ -32,13 +32,13 @@ function checkAns1(){
     const para1 = document.createElement("p");
     if(try1 == 1){
         console.log('correct ans');    
-        const node1 = document.createTextNode("That's correct! The most important principle is to tailor your application to the hob description.");
+        const node1 = document.createTextNode("That's correct! The most important principle is to tailor your application to the job description.");
         para1.appendChild(node1);
         feedback1.appendChild(para1);
         feedback1.style["background-color"] = "#CAEEC2";
     }else{
         console.log('incorrect');
-        const node1 = document.createTextNode("That's not quite right. The most important principle is to tailr your application to the hob description.");
+        const node1 = document.createTextNode("That's not quite right. The most important principle is to tailor your application to the job description.");
         para1.appendChild(node1);
         feedback1.appendChild(para1);
         feedback1.style["background-color"] = "#FFCCCB"
