@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="stylesheet.css" rel="stylesheet" >
+    <div class="container">
+    </div>
+    </head>
+    <title>  </title>
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home">Course Home</a>
+    <a class="active" href="placements.html">Placements and Applications </a>
+    <a href="applications.html">How to Stand Out</a>
+</div>
+
+      <!-- <span onclick="openNav()">open</span> -->
+<div id="main">     
+<h1> Speculative Applications</h1>
+
+<div class="container">
+    <!--<img src="Images/briefcase.jpg" alt="Business person with briefcase" style="width:600px">-->
+    <p><i> Learn how speculative applications can improve your chances and lead to unique placement opportunities. 
+    </i></p>
+
+<p>
+    If a sector or organisation doesn't advertise formal placements, then you might need to be a 
+    bit more creative when searching for opportunities in these areas. 
+
+</p>
+<div id = "myTip" class="tip" title="Tip!">
+    <div class="header">
+    <h3> Top Tip! <img src="Images/bulb.png" style="float:left;width:40px;height:40px;"> </h3> 
+    </div><br>
+    Start by compiling a list of 
+    organisations which you are interested in and contact each to see if they would consider you a placement student. 
+</div>
+
+<p>There are lots of different ways to approach organisations, including:</p>
+<ul>
+    <li>telephone calls (great for a quick answer) </li>
+    <li>sending a CV and covering letter</li>
+    <li>in-person</li>
+    <li>through LinkedIn or via your own networks (e.g. identifying possible organisations through friends and family contacts). </li>
+</ul>
+
+<p>You should consider more than your existing personal networks. Peers on courses and staff within schools 
+    may also have contacts within their networks which may be of use. 
+    The Leeds Network is a great way to contact University of Leeds alumni who might be able to give advice too.  </p>
+
+
+<div class = "studentprofile">
+    <div class="header">
+        <h3> Student Profile <img src="Images/joe.png"  alt="Photo of student" style="float:right;width:80px;height:80px;"><br> Joe- 4th Year Maths</h3> 
+         
+        </div>
+        I secured a placement with Starbucks in the USA just from speculatively approaching them. 
+        I believe four factors combined enabled her to create a positive first impression and helped me secure the placement: 
+        <ol> 
+            <li>I approached the organisation well in advance</li>
+            <li>I remained persistent</li>
+            <li> I did lots of research on the organisation</li>
+            <li>I was clear about the role I wanted to undertake</li> 
+        </ol>
+</div>
+
+<p>When searching for placements speculatively, there are a few things to consider. Click on each item to learn more!
+</p>
+
+<button type="button" class="collapsible">Length of Placement</button>
+<div class="content">
+  <p>Be flexible as for some organisations a shorter duration may be 
+      better whereas others may need a longer term commitment (remember to check the school’s minimum requirements) </p>
+</div>
+<button type="button" class="collapsible">Pay</button>
+<div class="content">
+  <p> Think about this carefully when approaching an organisation. Think about how you will fund the placement year 
+      and state in your application that you are looking for a paid placement. 
+      If you do accept an unpaid placement, ask if they are able to cover daily travel expenses. </p>
+</div>
+<button type="button" class="collapsible">Job Description and Contract</button>
+<div class="content">
+  <p> Even if an organisation creates a placement for the student, you will still need to have a 
+      job description and a contract so both parties have clear expectations of the work that will be done during the placement 
+      as well as other conditions such as working hours and holiday entitlement. 
+      You also need to give a copy of the job description to their school placement contact as part of the 
+      placement approval process.  </p>
+</div>
+
+
+<a href="applicationsQuiz.html" class="button">Next Page</a>
+
+</div>
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
